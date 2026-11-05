@@ -90,20 +90,23 @@ st.markdown(
         }
 
         div[data-testid="stMetric"] {
-            background-color: #ffffff;
-            border: 1px solid #e2e8f0;
+            background-color: var(--secondary-background-color);
+            border: 1px solid rgba(128, 128, 128, 0.25);
             border-radius: 10px;
             padding: 14px 8px;
             text-align: center;
             box-shadow: 0 1px 2px rgba(0,0,0,0.04);
         }
+        div[data-testid="stMetric"] label {color: var(--text-color) !important;}
+        div[data-testid="stMetricValue"] div {color: var(--text-color) !important;}
         div[data-testid="stMetricLabel"] {justify-content: center;}
         div[data-testid="stMetricValue"] {justify-content: center;}
 
         section[data-testid="stSidebar"] {
-            background-color: #f8fafc;
-            border-right: 1px solid #e2e8f0;
+            background-color: var(--secondary-background-color);
+            border-right: 1px solid rgba(128, 128, 128, 0.25);
         }
+        section[data-testid="stSidebar"] * {color: var(--text-color);}
 
         .stTabs [data-baseweb="tab-list"] {gap: 4px;}
         .stTabs [data-baseweb="tab"] {
