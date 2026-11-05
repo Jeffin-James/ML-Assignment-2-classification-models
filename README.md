@@ -24,8 +24,7 @@ held-out test data — without retraining in the app.
   file used to demo the Streamlit app.
 
 ## c. GitHub Repository Link
-> _Add your GitHub repository URL here after pushing this project, e.g._
-> `https://github.com/<your-username>/<your-repo>`
+https://github.com/Jeffin-James/ML-Assignment-2-classification-models
 
 ## d. Models Used
 
@@ -96,4 +95,4 @@ The app only loads the pre-trained model and scaler saved under `model/` — it 
 retrains on the uploaded data.
 
 ## Live Streamlit App Link
-> _Add your deployed Streamlit Community Cloud URL here._
+https://ml-assignment-2-2026aj05809.streamlit.app/
